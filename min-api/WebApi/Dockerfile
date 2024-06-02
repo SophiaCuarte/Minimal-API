@@ -7,7 +7,7 @@ RUN dotnet publish -c Release -o out
 
 # 2. Build runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
-LABEL description="hallo app"
+LABEL description="api app"
 LABEL organisation="KSB St. Gallen"
 LABEL author="Sophia Cuarte"
 WORKDIR /app
